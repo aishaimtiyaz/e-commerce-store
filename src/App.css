@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .header{
+    background-color: white;
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 25px;
+    position: sticky;
+    top: 0;
+}
+.left>img{
+ width: 120px;
+
+} 
+.right{
+    display: flex;
+}
+    
+.center{
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+    */
+.center>a{
+text-decoration: none;
+color: black;
+}
+.right{
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.rightIcon{
+    width: 28px;
+    height: 32px;
+    /* background-color: blue; */
+}
+.loginText{
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    padding: 2px;
+    margin-top: auto;
+    padding-left: 0px;
+    /* background-color: bisque; */
+}
+.rightIconSpan{
+    width: 70px;
+    /* background-color: bisque; */
+}
+.login{
+    display: flex;
+}
+
+.shopingBag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    background-color: #F1DDC9;
+    border-radius: 50%;
+}
+
